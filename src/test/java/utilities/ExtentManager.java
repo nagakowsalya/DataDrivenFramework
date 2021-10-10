@@ -13,7 +13,7 @@ public class ExtentManager {
 	    	if(extent==null)
 	    	{
 	    		
-	    	ExtentSparkReporter spark = new ExtentSparkReporter(System.getProperty("user.dir")+"\\target\\surefire-reports\\html\\extent.html");
+	    	ExtentSparkReporter spark = new ExtentSparkReporter(System.getProperty("user.dir")+"\\test-output\\html\\extent.html");
 	    	
 
 	    	spark.config().setTheme(Theme.STANDARD);

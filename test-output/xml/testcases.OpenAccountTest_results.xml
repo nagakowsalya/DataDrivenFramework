@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="0.849">
+           time="4.655">
   <properties />
   
   
-            <testcase name="openAccountTest" time="0.849" classname="testcases.OpenAccountTest" />
+            <testcase name="openAccountTest" time="4.655" classname="testcases.OpenAccountTest" />
       
 </testsuite>

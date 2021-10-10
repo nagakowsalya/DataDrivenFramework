@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-05T18:00:33 BST" name="Data Driven Sample" finished-at="2021-10-05T18:00:38 BST" duration-ms="5142">
+  <suite started-at="2021-10-10T23:57:13 BST" name="Data Driven Sample" finished-at="2021-10-10T23:57:40 BST" duration-ms="26949">
     <groups>
     </groups>
-    <test started-at="2021-10-05T18:00:33 BST" name="Bank Manager Login Test" finished-at="2021-10-05T18:00:33 BST" duration-ms="435">
+    <test started-at="2021-10-10T23:57:13 BST" name="Bank Manager Login Test" finished-at="2021-10-10T23:57:16 BST" duration-ms="3584">
       <class name="testcases.BankManagerLoginTest">
-        <test-method signature="bankManagerLoginTest()[pri:0, instance:testcases.BankManagerLoginTest@588ab592]" started-at="2021-10-05T18:00:33 BST" name="bankManagerLoginTest" finished-at="2021-10-05T18:00:33 BST" duration-ms="362" status="PASS">
+        <test-method signature="bankManagerLoginTest()[pri:0, instance:testcases.BankManagerLoginTest@2024293c]" started-at="2021-10-10T23:57:13 BST" name="bankManagerLoginTest" finished-at="2021-10-10T23:57:16 BST" duration-ms="3413" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bankManagerLoginTest -->
       </class> <!-- testcases.BankManagerLoginTest -->
     </test> <!-- Bank Manager Login Test -->
-    <test started-at="2021-10-05T18:00:34 BST" name="Add Customer Test" finished-at="2021-10-05T18:00:37 BST" duration-ms="3130">
+    <test started-at="2021-10-10T23:57:20 BST" name="Add Customer Test" finished-at="2021-10-10T23:57:35 BST" duration-ms="14604">
       <class name="testcases.AddCustomerTest">
-        <test-method signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:testcases.AddCustomerTest@3fabf088]" started-at="2021-10-05T18:00:34 BST" name="addCustomerTest" data-provider="dp" finished-at="2021-10-05T18:00:35 BST" duration-ms="1543" status="PASS">
+        <test-method signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:testcases.AddCustomerTest@2c22a348]" started-at="2021-10-10T23:57:20 BST" name="addCustomerTest" data-provider="dp" finished-at="2021-10-10T23:57:33 BST" duration-ms="12692" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,7 +26,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addCustomerTest -->
-        <test-method signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:testcases.AddCustomerTest@3fabf088]" started-at="2021-10-05T18:00:35 BST" name="addCustomerTest" data-provider="dp" finished-at="2021-10-05T18:00:36 BST" duration-ms="483" status="PASS">
+        <test-method signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:testcases.AddCustomerTest@2c22a348]" started-at="2021-10-10T23:57:33 BST" name="addCustomerTest" data-provider="dp" finished-at="2021-10-10T23:57:33 BST" duration-ms="571" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,7 +37,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addCustomerTest -->
-        <test-method signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:testcases.AddCustomerTest@3fabf088]" started-at="2021-10-05T18:00:36 BST" name="addCustomerTest" data-provider="dp" finished-at="2021-10-05T18:00:36 BST" duration-ms="582" status="PASS">
+        <test-method signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:testcases.AddCustomerTest@2c22a348]" started-at="2021-10-10T23:57:33 BST" name="addCustomerTest" data-provider="dp" finished-at="2021-10-10T23:57:34 BST" duration-ms="810" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -48,7 +48,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addCustomerTest -->
-        <test-method signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:testcases.AddCustomerTest@3fabf088]" started-at="2021-10-05T18:00:36 BST" name="addCustomerTest" data-provider="dp" finished-at="2021-10-05T18:00:37 BST" duration-ms="474" status="PASS">
+        <test-method signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:testcases.AddCustomerTest@2c22a348]" started-at="2021-10-10T23:57:34 BST" name="addCustomerTest" data-provider="dp" finished-at="2021-10-10T23:57:35 BST" duration-ms="469" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -61,13 +61,13 @@
         </test-method> <!-- addCustomerTest -->
       </class> <!-- testcases.AddCustomerTest -->
     </test> <!-- Add Customer Test -->
-    <test started-at="2021-10-05T18:00:37 BST" name="Open Account Test" finished-at="2021-10-05T18:00:38 BST" duration-ms="867">
+    <test started-at="2021-10-10T23:57:35 BST" name="Open Account Test" finished-at="2021-10-10T23:57:40 BST" duration-ms="4719">
       <class name="testcases.OpenAccountTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.OpenAccountTest@51b01960]" started-at="2021-10-05T18:00:24 BST" name="setUp" finished-at="2021-10-05T18:00:33 BST" duration-ms="8341" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.OpenAccountTest@3aaf4f07]" started-at="2021-10-10T23:56:50 BST" name="setUp" finished-at="2021-10-10T23:57:13 BST" duration-ms="23116" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="openAccountTest(java.util.Hashtable)[pri:0, instance:testcases.OpenAccountTest@51b01960]" started-at="2021-10-05T18:00:37 BST" name="openAccountTest" data-provider="dp" finished-at="2021-10-05T18:00:38 BST" duration-ms="849" status="PASS">
+        <test-method signature="openAccountTest(java.util.Hashtable)[pri:0, instance:testcases.OpenAccountTest@3aaf4f07]" started-at="2021-10-10T23:57:35 BST" name="openAccountTest" data-provider="dp" finished-at="2021-10-10T23:57:40 BST" duration-ms="4655" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -78,7 +78,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openAccountTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.OpenAccountTest@51b01960]" started-at="2021-10-05T18:00:38 BST" name="tearDown" finished-at="2021-10-05T18:00:39 BST" duration-ms="776" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.OpenAccountTest@3aaf4f07]" started-at="2021-10-10T23:57:40 BST" name="tearDown" finished-at="2021-10-10T23:57:45 BST" duration-ms="4797" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
