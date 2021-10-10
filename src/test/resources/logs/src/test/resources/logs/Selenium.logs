@@ -1,0 +1,253 @@
+23:41:25,483 DEBUG devpinoyLogger<strong>{1}<\strong>:65 - Config file loaded!!!
+23:41:25,488 DEBUG devpinoyLogger<strong>{1}<\strong>:79 - OR file loaded
+23:41:26,560 DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache<strong>{1}<\strong>:162 - Removing resolution chrome=94 from cache (expired on Thu Sep 30 23:12:18 BST 2021)
+23:41:26,605 DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient<strong>{1}<\strong>:172 - ex-00000001: preparing request execution
+23:41:26,629 DEBUG org.apache.hc.client5.http.protocol.RequestAddCookies<strong>{1}<\strong>:114 - Cookie spec selected: strict
+23:41:26,643 DEBUG org.apache.hc.client5.http.protocol.RequestAuthCache<strong>{1}<\strong>:76 - Auth cache not set in the context
+23:41:26,644 DEBUG org.apache.hc.client5.http.impl.classic.ProtocolExec<strong>{1}<\strong>:161 - ex-00000001: target auth state: UNCHALLENGED
+23:41:26,646 DEBUG org.apache.hc.client5.http.impl.classic.ProtocolExec<strong>{1}<\strong>:167 - ex-00000001: proxy auth state: UNCHALLENGED
+23:41:26,647 DEBUG org.apache.hc.client5.http.impl.classic.ConnectExec<strong>{1}<\strong>:116 - ex-00000001: acquiring connection with route {s}->https://raw.githubusercontent.com:443
+23:41:26,648 DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient<strong>{1}<\strong>:101 - ex-00000001: acquiring endpoint (3 MINUTES)
+23:41:26,654 DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager<strong>{1}<\strong>:258 - ex-00000001: endpoint lease request (3 MINUTES) [route: {s}->https://raw.githubusercontent.com:443][total available: 0; route allocated: 0 of 5; total allocated: 0 of 25]
+23:41:26,666 DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager<strong>{1}<\strong>:283 - ex-00000001: endpoint leased [route: {s}->https://raw.githubusercontent.com:443][total available: 0; route allocated: 1 of 5; total allocated: 1 of 25]
+23:41:26,701 DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager<strong>{1}<\strong>:319 - ex-00000001: acquired ep-00000000
+23:41:26,702 DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient<strong>{1}<\strong>:120 - ex-00000001: acquired endpoint ep-00000000
+23:41:26,703 DEBUG org.apache.hc.client5.http.impl.classic.ConnectExec<strong>{1}<\strong>:123 - ex-00000001: opening connection {s}->https://raw.githubusercontent.com:443
+23:41:26,706 DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient<strong>{1}<\strong>:162 - ep-00000000: connecting endpoint (30 SECONDS)
+23:41:26,712 DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager<strong>{1}<\strong>:405 - ep-00000000: connecting endpoint to https://raw.githubusercontent.com:443 (30 SECONDS)
+23:41:26,746 DEBUG org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator<strong>{1}<\strong>:145 - http-outgoing-0: connecting to raw.githubusercontent.com/185.199.109.133:443
+23:41:26,747 DEBUG org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory<strong>{1}<\strong>:211 - Connecting socket to raw.githubusercontent.com/185.199.109.133:443 with timeout 30 SECONDS
+23:41:26,856 DEBUG org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory<strong>{1}<\strong>:267 - Enabled protocols: [TLSv1.3, TLSv1.2]
+23:41:26,856 DEBUG org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory<strong>{1}<\strong>:268 - Enabled cipher suites: [TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+23:41:26,857 DEBUG org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory<strong>{1}<\strong>:272 - Starting handshake
+23:41:27,007 DEBUG org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory<strong>{1}<\strong>:58 - Secure session established
+23:41:27,007 DEBUG org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory<strong>{1}<\strong>:59 -  negotiated protocol: TLSv1.3
+23:41:27,008 DEBUG org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory<strong>{1}<\strong>:60 -  negotiated cipher suite: TLS_AES_256_GCM_SHA384
+23:41:27,012 DEBUG org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory<strong>{1}<\strong>:70 -  peer principal: CN=www.github.com, O="GitHub, Inc.", L=San Francisco, ST=California, C=US
+23:41:27,013 DEBUG org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory<strong>{1}<\strong>:79 -  peer alternative names: [www.github.com, *.github.com, github.com, *.github.io, github.io, *.githubusercontent.com, githubusercontent.com]
+23:41:27,014 DEBUG org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory<strong>{1}<\strong>:83 -  issuer principal: CN=DigiCert SHA2 High Assurance Server CA, OU=www.digicert.com, O=DigiCert Inc, C=US
+23:41:27,018 DEBUG org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator<strong>{1}<\strong>:151 - http-outgoing-0: connection established 192.168.1.211:49801<->185.199.109.133:443
+23:41:27,019 DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager<strong>{1}<\strong>:417 - ep-00000000: connected http-outgoing-0
+23:41:27,019 DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient<strong>{1}<\strong>:166 - ep-00000000: endpoint connected
+23:41:27,021 DEBUG org.apache.hc.client5.http.impl.classic.MainClientExec<strong>{1}<\strong>:102 - ex-00000001: executing GET /bonigarcia/webdrivermanager/master/src/main/resources/commands.properties HTTP/1.1
+23:41:27,023 DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient<strong>{1}<\strong>:213 - ep-00000000: start execution ex-00000001
+23:41:27,023 DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager<strong>{1}<\strong>:594 - ep-00000000: executing exchange ex-00000001 over http-outgoing-0
+23:41:27,024 DEBUG org.apache.hc.client5.http.headers<strong>{1}<\strong>:169 - http-outgoing-0 >> GET /bonigarcia/webdrivermanager/master/src/main/resources/commands.properties HTTP/1.1
+23:41:27,024 DEBUG org.apache.hc.client5.http.headers<strong>{1}<\strong>:172 - http-outgoing-0 >> user-agent: Apache-HttpClient/5.0
+23:41:27,025 DEBUG org.apache.hc.client5.http.headers<strong>{1}<\strong>:172 - http-outgoing-0 >> accept-encoding: gzip, deflate, br
+23:41:27,025 DEBUG org.apache.hc.client5.http.headers<strong>{1}<\strong>:172 - http-outgoing-0 >> cache-control: max-age=0
+23:41:27,026 DEBUG org.apache.hc.client5.http.headers<strong>{1}<\strong>:172 - http-outgoing-0 >> connection: keep-alive
+23:41:27,026 DEBUG org.apache.hc.client5.http.headers<strong>{1}<\strong>:172 - http-outgoing-0 >> Host: raw.githubusercontent.com
+23:41:27,027 DEBUG org.apache.hc.client5.http.wire<strong>{1}<\strong>:92 - http-outgoing-0 >> "GET /bonigarcia/webdrivermanager/master/src/main/resources/commands.properties HTTP/1.1[\r][\n]"
+23:41:27,027 DEBUG org.apache.hc.client5.http.wire<strong>{1}<\strong>:92 - http-outgoing-0 >> "user-agent: Apache-HttpClient/5.0[\r][\n]"
+23:41:27,028 DEBUG org.apache.hc.client5.http.wire<strong>{1}<\strong>:92 - http-outgoing-0 >> "accept-encoding: gzip, deflate, br[\r][\n]"
+23:41:27,028 DEBUG org.apache.hc.client5.http.wire<strong>{1}<\strong>:92 - http-outgoing-0 >> "cache-control: max-age=0[\r][\n]"
+23:41:27,028 DEBUG org.apache.hc.client5.http.wire<strong>{1}<\strong>:92 - http-outgoing-0 >> "connection: keep-alive[\r][\n]"
+23:41:27,028 DEBUG org.apache.hc.client5.http.wire<strong>{1}<\strong>:92 - http-outgoing-0 >> "Host: raw.githubusercontent.com[\r][\n]"
+23:41:27,029 DEBUG org.apache.hc.client5.http.wire<strong>{1}<\strong>:92 - http-outgoing-0 >> "[\r][\n]"
+23:41:27,154 DEBUG org.apache.hc.client5.http.wire<strong>{1}<\strong>:92 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+23:41:27,155 DEBUG org.apache.hc.client5.http.wire<strong>{1}<\strong>:92 - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+23:41:27,156 DEBUG org.apache.hc.client5.http.wire<strong>{1}<\strong>:92 - http-outgoing-0 << "Content-Length: 728[\r][\n]"
+23:41:27,157 DEBUG org.apache.hc.client5.http.wire<strong>{1}<\strong>:92 - http-outgoing-0 << "Cache-Control: max-age=300[\r][\n]"
+23:41:27,158 DEBUG org.apache.hc.client5.http.wire<strong>{1}<\strong>:92 - http-outgoing-0 << "Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox[\r][\n]"
+23:41:27,159 DEBUG org.apache.hc.client5.http.wire<strong>{1}<\strong>:92 - http-outgoing-0 << "Content-Type: text/plain; charset=utf-8[\r][\n]"
+23:41:27,160 DEBUG org.apache.hc.client5.http.wire<strong>{1}<\strong>:92 - http-outgoing-0 << "ETag: W/"f670816d6bfbef80584dadbb549bb9c4ccd5de869d5b63cc2a694a74613014b5"[\r][\n]"
+23:41:27,161 DEBUG org.apache.hc.client5.http.wire<strong>{1}<\strong>:92 - http-outgoing-0 << "Strict-Transport-Security: max-age=31536000[\r][\n]"
+23:41:27,162 DEBUG org.apache.hc.client5.http.wire<strong>{1}<\strong>:92 - http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+23:41:27,163 DEBUG org.apache.hc.client5.http.wire<strong>{1}<\strong>:92 - http-outgoing-0 << "X-Frame-Options: deny[\r][\n]"
+23:41:27,164 DEBUG org.apache.hc.client5.http.wire<strong>{1}<\strong>:92 - http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+23:41:27,165 DEBUG org.apache.hc.client5.http.wire<strong>{1}<\strong>:92 - http-outgoing-0 << "X-GitHub-Request-Id: 3C44:12962:193BD8:1E84A4:615613A9[\r][\n]"
+23:41:27,167 DEBUG org.apache.hc.client5.http.wire<strong>{1}<\strong>:92 - http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+23:41:27,168 DEBUG org.apache.hc.client5.http.wire<strong>{1}<\strong>:92 - http-outgoing-0 << "Accept-Ranges: bytes[\r][\n]"
+23:41:27,169 DEBUG org.apache.hc.client5.http.wire<strong>{1}<\strong>:92 - http-outgoing-0 << "Date: Thu, 30 Sep 2021 22:41:26 GMT[\r][\n]"
+23:41:27,170 DEBUG org.apache.hc.client5.http.wire<strong>{1}<\strong>:92 - http-outgoing-0 << "Via: 1.1 varnish[\r][\n]"
+23:41:27,171 DEBUG org.apache.hc.client5.http.wire<strong>{1}<\strong>:92 - http-outgoing-0 << "X-Served-By: cache-lcy19254-LCY[\r][\n]"
+23:41:27,172 DEBUG org.apache.hc.client5.http.wire<strong>{1}<\strong>:92 - http-outgoing-0 << "X-Cache: HIT[\r][\n]"
+23:41:27,172 DEBUG org.apache.hc.client5.http.wire<strong>{1}<\strong>:92 - http-outgoing-0 << "X-Cache-Hits: 1[\r][\n]"
+23:41:27,173 DEBUG org.apache.hc.client5.http.wire<strong>{1}<\strong>:92 - http-outgoing-0 << "X-Timer: S1633041686.195613,VS0,VE98[\r][\n]"
+23:41:27,174 DEBUG org.apache.hc.client5.http.wire<strong>{1}<\strong>:92 - http-outgoing-0 << "Vary: Authorization,Accept-Encoding,Origin[\r][\n]"
+23:41:27,174 DEBUG org.apache.hc.client5.http.wire<strong>{1}<\strong>:92 - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+23:41:27,175 DEBUG org.apache.hc.client5.http.wire<strong>{1}<\strong>:92 - http-outgoing-0 << "X-Fastly-Request-ID: 229f9f0137b9e9541862966fd9097be15e5bd2bb[\r][\n]"
+23:41:27,176 DEBUG org.apache.hc.client5.http.wire<strong>{1}<\strong>:92 - http-outgoing-0 << "Expires: Thu, 30 Sep 2021 22:46:26 GMT[\r][\n]"
+23:41:27,177 DEBUG org.apache.hc.client5.http.wire<strong>{1}<\strong>:92 - http-outgoing-0 << "Source-Age: 0[\r][\n]"
+23:41:27,178 DEBUG org.apache.hc.client5.http.wire<strong>{1}<\strong>:92 - http-outgoing-0 << "[\r][\n]"
+23:41:27,187 DEBUG org.apache.hc.client5.http.headers<strong>{1}<\strong>:158 - http-outgoing-0 << HTTP/1.1 200 OK
+23:41:27,187 DEBUG org.apache.hc.client5.http.headers<strong>{1}<\strong>:161 - http-outgoing-0 << Connection: keep-alive
+23:41:27,188 DEBUG org.apache.hc.client5.http.headers<strong>{1}<\strong>:161 - http-outgoing-0 << Content-Length: 728
+23:41:27,188 DEBUG org.apache.hc.client5.http.headers<strong>{1}<\strong>:161 - http-outgoing-0 << Cache-Control: max-age=300
+23:41:27,188 DEBUG org.apache.hc.client5.http.headers<strong>{1}<\strong>:161 - http-outgoing-0 << Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+23:41:27,189 DEBUG org.apache.hc.client5.http.headers<strong>{1}<\strong>:161 - http-outgoing-0 << Content-Type: text/plain; charset=utf-8
+23:41:27,189 DEBUG org.apache.hc.client5.http.headers<strong>{1}<\strong>:161 - http-outgoing-0 << ETag: W/"f670816d6bfbef80584dadbb549bb9c4ccd5de869d5b63cc2a694a74613014b5"
+23:41:27,189 DEBUG org.apache.hc.client5.http.headers<strong>{1}<\strong>:161 - http-outgoing-0 << Strict-Transport-Security: max-age=31536000
+23:41:27,189 DEBUG org.apache.hc.client5.http.headers<strong>{1}<\strong>:161 - http-outgoing-0 << X-Content-Type-Options: nosniff
+23:41:27,190 DEBUG org.apache.hc.client5.http.headers<strong>{1}<\strong>:161 - http-outgoing-0 << X-Frame-Options: deny
+23:41:27,190 DEBUG org.apache.hc.client5.http.headers<strong>{1}<\strong>:161 - http-outgoing-0 << X-XSS-Protection: 1; mode=block
+23:41:27,190 DEBUG org.apache.hc.client5.http.headers<strong>{1}<\strong>:161 - http-outgoing-0 << X-GitHub-Request-Id: 3C44:12962:193BD8:1E84A4:615613A9
+23:41:27,190 DEBUG org.apache.hc.client5.http.headers<strong>{1}<\strong>:161 - http-outgoing-0 << Content-Encoding: gzip
+23:41:27,191 DEBUG org.apache.hc.client5.http.headers<strong>{1}<\strong>:161 - http-outgoing-0 << Accept-Ranges: bytes
+23:41:27,191 DEBUG org.apache.hc.client5.http.headers<strong>{1}<\strong>:161 - http-outgoing-0 << Date: Thu, 30 Sep 2021 22:41:26 GMT
+23:41:27,191 DEBUG org.apache.hc.client5.http.headers<strong>{1}<\strong>:161 - http-outgoing-0 << Via: 1.1 varnish
+23:41:27,191 DEBUG org.apache.hc.client5.http.headers<strong>{1}<\strong>:161 - http-outgoing-0 << X-Served-By: cache-lcy19254-LCY
+23:41:27,192 DEBUG org.apache.hc.client5.http.headers<strong>{1}<\strong>:161 - http-outgoing-0 << X-Cache: HIT
+23:41:27,192 DEBUG org.apache.hc.client5.http.headers<strong>{1}<\strong>:161 - http-outgoing-0 << X-Cache-Hits: 1
+23:41:27,192 DEBUG org.apache.hc.client5.http.headers<strong>{1}<\strong>:161 - http-outgoing-0 << X-Timer: S1633041686.195613,VS0,VE98
+23:41:27,192 DEBUG org.apache.hc.client5.http.headers<strong>{1}<\strong>:161 - http-outgoing-0 << Vary: Authorization,Accept-Encoding,Origin
+23:41:27,193 DEBUG org.apache.hc.client5.http.headers<strong>{1}<\strong>:161 - http-outgoing-0 << Access-Control-Allow-Origin: *
+23:41:27,193 DEBUG org.apache.hc.client5.http.headers<strong>{1}<\strong>:161 - http-outgoing-0 << X-Fastly-Request-ID: 229f9f0137b9e9541862966fd9097be15e5bd2bb
+23:41:27,194 DEBUG org.apache.hc.client5.http.headers<strong>{1}<\strong>:161 - http-outgoing-0 << Expires: Thu, 30 Sep 2021 22:46:26 GMT
+23:41:27,194 DEBUG org.apache.hc.client5.http.headers<strong>{1}<\strong>:161 - http-outgoing-0 << Source-Age: 0
+23:41:27,201 DEBUG org.apache.hc.client5.http.impl.classic.MainClientExec<strong>{1}<\strong>:126 - ex-00000001: connection can be kept alive for 3 MINUTES
+23:41:27,272 DEBUG org.apache.hc.client5.http.wire<strong>{1}<\strong>:92 - http-outgoing-0 << "[0x1f][0xffffff8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xffffffb5]V]o[0xffffffda]0[0x14]}[0xffffffe7]W\[0xffffff81]*[0xffffffb5][0x12][0x1f][[M[0xffffffd3]$[0x1e]hF[0xffffffbb]i [0x18][0xffffffb4][0xffffffdd]&[0xfffffff9][0xffffffc5]Mn[0xffffff82][0xffffffa5]$Fv([0xffffffed]~[0xfffffffd]l[0xffffffe7]c$u[0x6]k[0xffffffe8][l_[0xffffff9f]s|[0xffffffef]q|;[0xffffffe0][0xfffffff0]([0xffffffa2][0xffffffb1]'[0xffffffc1][0xffffffa3][0x9]}[0xffffffa0][0x12][[0x1d][0xffffffb8]]1[0x9]>[0xb][0x11]\[0x1e]'[0xffffff94][0xffffffc5][0x12][0xffffff92][0xffffff95][0x1e]d[0xffffffa1][0x9][0xffffff87][0x7][0x4]|Bw[0xffffff93][0xffffffa0][0x7],6[0xffffffcb]r[0xffffff85]a[0xffffffa8][0x7]\x(t[0xffffff90][0xffffff87][0x9][0xffffffba][0xffffff89]Y|D![0x19]Wk>[0xffffffa0][0xfffffffa][0xe][0x4]b[0xc][0xf][0xffffff82]o[0xffffffa5]ZP[0xffffff94][0xffffffa7][0xffffffce]J[0xfffffff0][0x8][0xffffffbb]p[0xffffffcd][0x4][0xfffffffa][0xfffffffc][0xffffffa9][0xb][0xffffffb3]5[\n]"
+23:41:27,274 DEBUG org.apache.hc.client5.http.wire<strong>{1}<\strong>:92 - http-outgoing-0 << "[0xffffffda][0xffffff85][0xffffffb1][0x17][0xffffffa8]Y[0xffffffb3][0xffffffca]6[0xffffffd1][0xffffff99][0xffffffc6][0xfffffff7][0xffffff98][0xffffffef][0xffffffa3][0xffffffc0]8[0x1][0xffffffae]c[0x12][0x16][0x7] [0xffffff9f]e[0xffffff82][0xffffff91][0xffffff84][0xffffffd3][0x1f],[0xfffffff6][0x14]j[0x17]&,[0xffffffde]([0xffffff98])ua[0xffffffb6]<k)[0xffffff8e][0xffffff94][0xffffffa2][0xffffff95][0x1d][0xffffffa3][0xffffffef][0xffffff9a]a[0x7f][0xffffff9b]n[0xffffffe8][0xffffffbf]{?t#[0xffffffaf][0xffffffaf]N[0x5][0x3][0x7][0xffffffb6][0x11]sMJL[0x1a][0xffffffb6]+[0xffffffc5][0x7]1[0xffffff8d]p[0xffffffd8]>[0xffffff99]/f7[0xffffff8b][0xffffffd1][0xfffffff4][0xfffffffa][0xffffffeb]d[0xffffffbc]<[0xfffffffd][0xfffffff9][0xfffffff1][0xffffffc3][0xffffffd9]'2$[0xffffffe4][0xffffff84][0xffffff90][0x1b][0xffffffce][0xffffff83][0x10][0x9]Iy[0x8][0x19][0xffffffad][0xffffffd7]!s[0xffffff95]>[0x1e][0x13][0xffffff92][0xffffffb1])[0xfffffff8]6[0x4][0xffffff98][0xffffffc0]}[0xffffff96][0xffffff90][0xffffffc1]#[\r]7[0xfffffff5][0xffffffa2][0xffffffce][0xf][0x14]5[0xffffff99]9[0xffffffa3][0xffffffc9]h>[0xffffffff]<[0xffffffba][0x1d][0xffffffbd][0xffffffa5][0xffffff9e][0xffffff8b]W$[0xffffffe9]-[0xfffffff5]\[0xe][0x17][0xffffffe3][0x1b][0xfffffff8]~7^[0xfffffffc][0xffffff82]/[0xffffffdf][0xffffff9c];[0xffffffb2][0xffffffe4]~[0xffffffb2][0xffffffa5][0x2]s[0xffffffb6][0xffffff8c][0xffffffec]jr[0xffffff85][0xffffffd4]5x[0xffffffb9][0x17][U[0xffffffd0]P;F[0xfffffffb] 0[{[0xffffffe9]4[0xfffffff4]zu[0x1b]"[0xffffffea][0xffffffea][0xfffffff0][0xffffffc1][0xffffffce]A[0xffffffe4] [0xffffffe5][0xffffffcd][0xffffffcc][0xffffffd6][0xffffffa7][0xffffffeb][0xfffffff5][0xffffffc0]Q[0xffffff97]H[0xffffffb9]U[0xe][0xffffff94][0x17]g[0xffffffcb]r[0xffffffc0].[0xffffffba][0xffffffb2]h[0xffffffe6][0xfffffffe][0xffffff82][0xffffffc8]O[0xffffffc7][0xffffffcd]L[0xffffff9a][0xffffffe7][0x7f][0xffffffca][0x7f][0xffffffb3]0[0xffffffa4]9[0x9]!9[0xfffffffa][0xffffffbe][0xffffffa4][0xffffffbf]Pq[0xffffffa8]+k[0xffffffaf][0xffffffca][0xfffffff1][0xffffffa4]\[0xffffffec][0x18][0xffffffa0]]v@FR%kk[0xf]8[0x1b][0xffffffa1][0xffffffff] [0xfffffff7][0xffffffd5][0xffffffca][0xffffffe6][0xfffffff8][0xffffff85][0x17][0xffffffb2][0x9][0xffffffe8]=[0xffffffbe][0xc][0xffffffb2][0xffffffd6]?c[0xffffffb1]U~[0x17]K[0x15][[0xffffffff][0xffffffda][\n]"
+23:41:27,275 DEBUG org.apache.hc.client5.http.wire<strong>{1}<\strong>:92 - http-outgoing-0 << "LT[0xffffff83]#[0xfffffffe][0xffffff8b][0xffffffa6][0xffffffcc][0x15]\[0xffffffaa]L[0x10][0xffffffa2]i*[0xffffff97]-[0xffffff92][0xffffff86]n_[0xffffffb2][0xffffffcb][0xffffff9a]^S[0xfffffff4]7[0xffffff94]sQ{[0xfffffff3][0xffffffff][0xffffff92][0x19][0xffffffae][0x7f]^}[0xffffff83]Y[0x14];[0xffffffca]w[0xfffffff6][0xfffffff4][0xffffffbc][0xffffffed][0xffffffe6][0xffffff9b]xk[0xffffffdd][0xb]VSW[[0xfffffff9][0xffffffcb][0x11]P[0xffffffba][0xfffffff8][0xffffffe6][0xffffffb5]+X[0xffffffcc][0xffffffbb][0xfffffff6][0xffffffff]n[0xffffffb0]=[0x2]s[0xffffffc1][0x3]A#I[0xffffff88][0xffffffa1] $[0xffffffa4][0xffffff9b][0xffffffd8]U[0xffffffbb][0xfffffff6][0xffffffa6][0xffffffbb]"[0xffffffa2]I[0xfffffff9][0xffffff8f]&[0xffffffe2][0xffffffd0][0xffffffe7][0xffffffc7][0xffffff96][0xffffff89][0xffffff86][0xffffffd4][0xffffff97][\r][0xffffffce][0x7f](u[0xffffff85][0xffffffbb][0xfffffff0][0xffffffa5][0x19][0xffffffda][0xffffffec][0xffffff98][0xffffffc6]Y[0xfffffffd]h8m6[0xffffff9c]U[0xffffffc1][0xfffffff2][0xffffffd6]H[0xfffffff5]W[0xffffffe5][0x17]NM[0x1c][0xffffffc7][0xffffff84]9|[0xffffff83]7[0xffffffbf][0xffffffa4][0xffffffa5][0xfffffff1][0xfffffffb]slAM[0xffffffda][0xffffffa2]ck[0xffffffa9]o[0xffffff89][\n]"
+23:41:27,276 DEBUG org.apache.hc.client5.http.wire<strong>{1}<\strong>:106 - http-outgoing-0 << "[0xffffffa6][0xfffffffd][0xffffffdd][0xffffff90]F,[0xffffffec][0xffffff97][0xffffffcf][0xfffffff4][0xffffffb2][0xffffff86]}[0xffffffc7]<u[0xffffff9b][0xffffffce][0xffffff8b]M[0xffffffb5][0xfffffffd][0xffffff93][0xffffff8e][0xffffffb6]:7[0xffffff97]i3[0xffffffaf]cA[0xffffffed][0xffffffc0][0xffffff92][0xfffffffa]T[0xffffffb0][0x2]^[0xffffff9a][0xffffffa1][0x1d]<[\r][0xffffffb5]A[0xffffffa7]+;[0xffffffc0][0x7f][0x0][0xffffffb2]$|[0xffffff88][0x1d][\r][0x0][0x0]"
+23:41:27,278 DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient<strong>{1}<\strong>:255 - ep-00000000: releasing valid endpoint
+23:41:27,279 DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager<strong>{1}<\strong>:349 - ep-00000000: releasing endpoint
+23:41:27,280 DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager<strong>{1}<\strong>:368 - ep-00000000: connection http-outgoing-0 can be kept alive for 3 MINUTES
+23:41:27,281 DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager<strong>{1}<\strong>:381 - ep-00000000: connection released [route: {s}->https://raw.githubusercontent.com:443][total available: 1; route allocated: 1 of 5; total allocated: 1 of 25]
+23:41:27,281 DEBUG io.github.bonigarcia.wdm.versions.VersionDetector<strong>{1}<\strong>:140 - Detecting chrome version using online commands.properties
+23:41:27,299 DEBUG io.github.bonigarcia.wdm.versions.Shell<strong>{1}<\strong>:54 - Running command on the shell: [cmd.exe, /C, wmic, datafile, where, name="%PROGRAMFILES(X86):\=\\%\\Google\\Chrome\\Application\\chrome.exe", get, Version, /value]
+23:41:28,761 DEBUG io.github.bonigarcia.wdm.versions.Shell<strong>{1}<\strong>:56 - Result: Version=94.0.4606.61
+23:41:28,764 DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache<strong>{1}<\strong>:187 - Resolution chrome94=94.0.4606.61 in cache (valid until 18:29:34 01/10/2021 BST)
+23:41:28,765  INFO io.github.bonigarcia.wdm.WebDriverManager<strong>{1}<\strong>:632 - Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+23:41:28,770 DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache<strong>{1}<\strong>:126 - Storing resolution chrome=94 in cache (valid until 00:41:28 01/10/2021 BST)
+23:41:28,854 DEBUG io.github.bonigarcia.wdm.WebDriverManager<strong>{1}<\strong>:588 - Driver chromedriver 94.0.4606.61 found in cache
+23:41:28,856  INFO io.github.bonigarcia.wdm.WebDriverManager<strong>{1}<\strong>:689 - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+23:41:46,770 DEBUG devpinoyLogger<strong>{1}<\strong>:94 - Chrome Launched!!
+23:41:52,605 DEBUG devpinoyLogger<strong>{1}<\strong>:103 - Navigated to : https://www.way2automation.com/angularjs-protractor/banking/#/login
+23:41:54,646 DEBUG devpinoyLogger<strong>{1}<\strong>:16 - Inside login Test
+23:41:55,965 DEBUG devpinoyLogger<strong>{1}<\strong>:20 - Login successfully executed
+23:41:56,692 DEBUG freemarker.cache<strong>{1}<\strong>:45 - Couldn't find template in cache for "spark/spark.spa.ftl"("en_IN", UTF-8, parsed); will try to load it.
+23:41:56,694 DEBUG freemarker.cache<strong>{1}<\strong>:45 - TemplateLoader.findTemplateSource("spark/spark.spa_en_IN.ftl"): Not found
+23:41:56,698 DEBUG freemarker.cache<strong>{1}<\strong>:45 - TemplateLoader.findTemplateSource("spark/spark.spa_en.ftl"): Not found
+23:41:56,700 DEBUG freemarker.cache<strong>{1}<\strong>:45 - TemplateLoader.findTemplateSource("spark/spark.spa.ftl"): Found
+23:41:56,701 DEBUG freemarker.cache<strong>{1}<\strong>:45 - Loading template for "spark/spark.spa.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Admin/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/spark.spa.ftl"
+23:41:56,960 DEBUG freemarker.cache<strong>{1}<\strong>:45 - Couldn't find template in cache for "commons/commons-variables.ftl"("en_IN", UTF-8, parsed); will try to load it.
+23:41:56,962 DEBUG freemarker.cache<strong>{1}<\strong>:45 - TemplateLoader.findTemplateSource("commons/commons-variables_en_IN.ftl"): Not found
+23:41:56,963 DEBUG freemarker.cache<strong>{1}<\strong>:45 - TemplateLoader.findTemplateSource("commons/commons-variables_en.ftl"): Not found
+23:41:56,964 DEBUG freemarker.cache<strong>{1}<\strong>:45 - TemplateLoader.findTemplateSource("commons/commons-variables.ftl"): Found
+23:41:56,964 DEBUG freemarker.cache<strong>{1}<\strong>:45 - Loading template for "commons/commons-variables.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Admin/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-variables.ftl"
+23:41:57,262 DEBUG freemarker.cache<strong>{1}<\strong>:45 - Couldn't find template in cache for "commons/commons-macros.ftl"("en_IN", UTF-8, parsed); will try to load it.
+23:41:57,263 DEBUG freemarker.cache<strong>{1}<\strong>:45 - TemplateLoader.findTemplateSource("commons/commons-macros_en_IN.ftl"): Not found
+23:41:57,264 DEBUG freemarker.cache<strong>{1}<\strong>:45 - TemplateLoader.findTemplateSource("commons/commons-macros_en.ftl"): Not found
+23:41:57,265 DEBUG freemarker.cache<strong>{1}<\strong>:45 - TemplateLoader.findTemplateSource("commons/commons-macros.ftl"): Found
+23:41:57,265 DEBUG freemarker.cache<strong>{1}<\strong>:45 - Loading template for "commons/commons-macros.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Admin/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-macros.ftl"
+23:41:57,278 DEBUG freemarker.cache<strong>{1}<\strong>:45 - Couldn't find template in cache for "spark/macros/attributes.ftl"("en_IN", UTF-8, parsed); will try to load it.
+23:41:57,279 DEBUG freemarker.cache<strong>{1}<\strong>:45 - TemplateLoader.findTemplateSource("spark/macros/attributes_en_IN.ftl"): Not found
+23:41:57,280 DEBUG freemarker.cache<strong>{1}<\strong>:45 - TemplateLoader.findTemplateSource("spark/macros/attributes_en.ftl"): Not found
+23:41:57,281 DEBUG freemarker.cache<strong>{1}<\strong>:45 - TemplateLoader.findTemplateSource("spark/macros/attributes.ftl"): Found
+23:41:57,281 DEBUG freemarker.cache<strong>{1}<\strong>:45 - Loading template for "spark/macros/attributes.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Admin/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/attributes.ftl"
+23:41:57,284 DEBUG freemarker.cache<strong>{1}<\strong>:45 - Couldn't find template in cache for "spark/macros/log.ftl"("en_IN", UTF-8, parsed); will try to load it.
+23:41:57,286 DEBUG freemarker.cache<strong>{1}<\strong>:45 - TemplateLoader.findTemplateSource("spark/macros/log_en_IN.ftl"): Not found
+23:41:57,287 DEBUG freemarker.cache<strong>{1}<\strong>:45 - TemplateLoader.findTemplateSource("spark/macros/log_en.ftl"): Not found
+23:41:57,288 DEBUG freemarker.cache<strong>{1}<\strong>:45 - TemplateLoader.findTemplateSource("spark/macros/log.ftl"): Found
+23:41:57,288 DEBUG freemarker.cache<strong>{1}<\strong>:45 - Loading template for "spark/macros/log.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Admin/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/log.ftl"
+23:41:57,291 DEBUG freemarker.cache<strong>{1}<\strong>:45 - Couldn't find template in cache for "spark/macros/recurse_nodes.ftl"("en_IN", UTF-8, parsed); will try to load it.
+23:41:57,293 DEBUG freemarker.cache<strong>{1}<\strong>:45 - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en_IN.ftl"): Not found
+23:41:57,294 DEBUG freemarker.cache<strong>{1}<\strong>:45 - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en.ftl"): Not found
+23:41:57,295 DEBUG freemarker.cache<strong>{1}<\strong>:45 - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes.ftl"): Found
+23:41:57,295 DEBUG freemarker.cache<strong>{1}<\strong>:45 - Loading template for "spark/macros/recurse_nodes.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Admin/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/recurse_nodes.ftl"
+23:41:57,302 DEBUG freemarker.cache<strong>{1}<\strong>:45 - "spark/macros/log.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+23:41:57,302 DEBUG freemarker.cache<strong>{1}<\strong>:45 - Couldn't find template in cache for "spark/macros/attr-common.ftl"("en_IN", UTF-8, parsed); will try to load it.
+23:41:57,304 DEBUG freemarker.cache<strong>{1}<\strong>:45 - TemplateLoader.findTemplateSource("spark/macros/attr-common_en_IN.ftl"): Not found
+23:41:57,305 DEBUG freemarker.cache<strong>{1}<\strong>:45 - TemplateLoader.findTemplateSource("spark/macros/attr-common_en.ftl"): Not found
+23:41:57,306 DEBUG freemarker.cache<strong>{1}<\strong>:45 - TemplateLoader.findTemplateSource("spark/macros/attr-common.ftl"): Found
+23:41:57,306 DEBUG freemarker.cache<strong>{1}<\strong>:45 - Loading template for "spark/macros/attr-common.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Admin/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/attr-common.ftl"
+23:41:57,333 DEBUG freemarker.cache<strong>{1}<\strong>:45 - Couldn't find template in cache for "spark/partials/head.ftl"("en_IN", UTF-8, parsed); will try to load it.
+23:41:57,334 DEBUG freemarker.cache<strong>{1}<\strong>:45 - TemplateLoader.findTemplateSource("spark/partials/head_en_IN.ftl"): Not found
+23:41:57,335 DEBUG freemarker.cache<strong>{1}<\strong>:45 - TemplateLoader.findTemplateSource("spark/partials/head_en.ftl"): Not found
+23:41:57,336 DEBUG freemarker.cache<strong>{1}<\strong>:45 - TemplateLoader.findTemplateSource("spark/partials/head.ftl"): Found
+23:41:57,336 DEBUG freemarker.cache<strong>{1}<\strong>:45 - Loading template for "spark/partials/head.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Admin/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/head.ftl"
+23:41:57,366 DEBUG freemarker.cache<strong>{1}<\strong>:45 - Couldn't find template in cache for "commons/commons-inject-css.ftl"("en_IN", UTF-8, parsed); will try to load it.
+23:41:57,367 DEBUG freemarker.cache<strong>{1}<\strong>:45 - TemplateLoader.findTemplateSource("commons/commons-inject-css_en_IN.ftl"): Not found
+23:41:57,368 DEBUG freemarker.cache<strong>{1}<\strong>:45 - TemplateLoader.findTemplateSource("commons/commons-inject-css_en.ftl"): Not found
+23:41:57,369 DEBUG freemarker.cache<strong>{1}<\strong>:45 - TemplateLoader.findTemplateSource("commons/commons-inject-css.ftl"): Found
+23:41:57,369 DEBUG freemarker.cache<strong>{1}<\strong>:45 - Loading template for "commons/commons-inject-css.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Admin/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-inject-css.ftl"
+23:41:57,371 DEBUG freemarker.cache<strong>{1}<\strong>:45 - Couldn't find template in cache for "spark/partials/navbar.ftl"("en_IN", UTF-8, parsed); will try to load it.
+23:41:57,372 DEBUG freemarker.cache<strong>{1}<\strong>:45 - TemplateLoader.findTemplateSource("spark/partials/navbar_en_IN.ftl"): Not found
+23:41:57,373 DEBUG freemarker.cache<strong>{1}<\strong>:45 - TemplateLoader.findTemplateSource("spark/partials/navbar_en.ftl"): Not found
+23:41:57,373 DEBUG freemarker.cache<strong>{1}<\strong>:45 - TemplateLoader.findTemplateSource("spark/partials/navbar.ftl"): Found
+23:41:57,374 DEBUG freemarker.cache<strong>{1}<\strong>:45 - Loading template for "spark/partials/navbar.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Admin/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/navbar.ftl"
+23:41:57,406 DEBUG freemarker.cache<strong>{1}<\strong>:45 - Couldn't find template in cache for "spark/partials/sidenav.ftl"("en_IN", UTF-8, parsed); will try to load it.
+23:41:57,407 DEBUG freemarker.cache<strong>{1}<\strong>:45 - TemplateLoader.findTemplateSource("spark/partials/sidenav_en_IN.ftl"): Not found
+23:41:57,408 DEBUG freemarker.cache<strong>{1}<\strong>:45 - TemplateLoader.findTemplateSource("spark/partials/sidenav_en.ftl"): Not found
+23:41:57,409 DEBUG freemarker.cache<strong>{1}<\strong>:45 - TemplateLoader.findTemplateSource("spark/partials/sidenav.ftl"): Found
+23:41:57,409 DEBUG freemarker.cache<strong>{1}<\strong>:45 - Loading template for "spark/partials/sidenav.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Admin/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/sidenav.ftl"
+23:41:57,429 DEBUG freemarker.cache<strong>{1}<\strong>:45 - Couldn't find template in cache for "spark/partials/test.ftl"("en_IN", UTF-8, parsed); will try to load it.
+23:41:57,430 DEBUG freemarker.cache<strong>{1}<\strong>:45 - TemplateLoader.findTemplateSource("spark/partials/test_en_IN.ftl"): Not found
+23:41:57,430 DEBUG freemarker.cache<strong>{1}<\strong>:45 - TemplateLoader.findTemplateSource("spark/partials/test_en.ftl"): Not found
+23:41:57,431 DEBUG freemarker.cache<strong>{1}<\strong>:45 - TemplateLoader.findTemplateSource("spark/partials/test.ftl"): Found
+23:41:57,432 DEBUG freemarker.cache<strong>{1}<\strong>:45 - Loading template for "spark/partials/test.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Admin/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/test.ftl"
+23:41:57,457 DEBUG freemarker.cache<strong>{1}<\strong>:45 - Couldn't find template in cache for "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed); will try to load it.
+23:41:57,461 DEBUG freemarker.cache<strong>{1}<\strong>:45 - TemplateLoader.findTemplateSource("spark/partials/standard-content_en_IN.ftl"): Not found
+23:41:57,463 DEBUG freemarker.cache<strong>{1}<\strong>:45 - TemplateLoader.findTemplateSource("spark/partials/standard-content_en.ftl"): Not found
+23:41:57,465 DEBUG freemarker.cache<strong>{1}<\strong>:45 - TemplateLoader.findTemplateSource("spark/partials/standard-content.ftl"): Found
+23:41:57,465 DEBUG freemarker.cache<strong>{1}<\strong>:45 - Loading template for "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Admin/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/standard-content.ftl"
+23:41:57,491 DEBUG freemarker.cache<strong>{1}<\strong>:45 - Couldn't find template in cache for "spark/partials/exception.ftl"("en_IN", UTF-8, parsed); will try to load it.
+23:41:57,492 DEBUG freemarker.cache<strong>{1}<\strong>:45 - TemplateLoader.findTemplateSource("spark/partials/exception_en_IN.ftl"): Not found
+23:41:57,493 DEBUG freemarker.cache<strong>{1}<\strong>:45 - TemplateLoader.findTemplateSource("spark/partials/exception_en.ftl"): Not found
+23:41:57,494 DEBUG freemarker.cache<strong>{1}<\strong>:45 - TemplateLoader.findTemplateSource("spark/partials/exception.ftl"): Found
+23:41:57,494 DEBUG freemarker.cache<strong>{1}<\strong>:45 - Loading template for "spark/partials/exception.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Admin/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/exception.ftl"
+23:41:57,496 DEBUG freemarker.cache<strong>{1}<\strong>:45 - Couldn't find template in cache for "spark/partials/category.ftl"("en_IN", UTF-8, parsed); will try to load it.
+23:41:57,498 DEBUG freemarker.cache<strong>{1}<\strong>:45 - TemplateLoader.findTemplateSource("spark/partials/category_en_IN.ftl"): Not found
+23:41:57,499 DEBUG freemarker.cache<strong>{1}<\strong>:45 - TemplateLoader.findTemplateSource("spark/partials/category_en.ftl"): Not found
+23:41:57,500 DEBUG freemarker.cache<strong>{1}<\strong>:45 - TemplateLoader.findTemplateSource("spark/partials/category.ftl"): Found
+23:41:57,500 DEBUG freemarker.cache<strong>{1}<\strong>:45 - Loading template for "spark/partials/category.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Admin/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/category.ftl"
+23:41:57,502 DEBUG freemarker.cache<strong>{1}<\strong>:45 - Couldn't find template in cache for "spark/partials/device.ftl"("en_IN", UTF-8, parsed); will try to load it.
+23:41:57,503 DEBUG freemarker.cache<strong>{1}<\strong>:45 - TemplateLoader.findTemplateSource("spark/partials/device_en_IN.ftl"): Not found
+23:41:57,504 DEBUG freemarker.cache<strong>{1}<\strong>:45 - TemplateLoader.findTemplateSource("spark/partials/device_en.ftl"): Not found
+23:41:57,505 DEBUG freemarker.cache<strong>{1}<\strong>:45 - TemplateLoader.findTemplateSource("spark/partials/device.ftl"): Found
+23:41:57,505 DEBUG freemarker.cache<strong>{1}<\strong>:45 - Loading template for "spark/partials/device.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Admin/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/device.ftl"
+23:41:57,507 DEBUG freemarker.cache<strong>{1}<\strong>:45 - Couldn't find template in cache for "spark/partials/author.ftl"("en_IN", UTF-8, parsed); will try to load it.
+23:41:57,508 DEBUG freemarker.cache<strong>{1}<\strong>:45 - TemplateLoader.findTemplateSource("spark/partials/author_en_IN.ftl"): Not found
+23:41:57,509 DEBUG freemarker.cache<strong>{1}<\strong>:45 - TemplateLoader.findTemplateSource("spark/partials/author_en.ftl"): Not found
+23:41:57,510 DEBUG freemarker.cache<strong>{1}<\strong>:45 - TemplateLoader.findTemplateSource("spark/partials/author.ftl"): Found
+23:41:57,510 DEBUG freemarker.cache<strong>{1}<\strong>:45 - Loading template for "spark/partials/author.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Admin/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/author.ftl"
+23:41:57,512 DEBUG freemarker.cache<strong>{1}<\strong>:45 - Couldn't find template in cache for "spark/partials/log.ftl"("en_IN", UTF-8, parsed); will try to load it.
+23:41:57,513 DEBUG freemarker.cache<strong>{1}<\strong>:45 - TemplateLoader.findTemplateSource("spark/partials/log_en_IN.ftl"): Not found
+23:41:57,514 DEBUG freemarker.cache<strong>{1}<\strong>:45 - TemplateLoader.findTemplateSource("spark/partials/log_en.ftl"): Not found
+23:41:57,515 DEBUG freemarker.cache<strong>{1}<\strong>:45 - TemplateLoader.findTemplateSource("spark/partials/log.ftl"): Found
+23:41:57,515 DEBUG freemarker.cache<strong>{1}<\strong>:45 - Loading template for "spark/partials/log.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Admin/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/log.ftl"
+23:41:57,517 DEBUG freemarker.cache<strong>{1}<\strong>:45 - Couldn't find template in cache for "spark/partials/dashboard.ftl"("en_IN", UTF-8, parsed); will try to load it.
+23:41:57,518 DEBUG freemarker.cache<strong>{1}<\strong>:45 - TemplateLoader.findTemplateSource("spark/partials/dashboard_en_IN.ftl"): Not found
+23:41:57,520 DEBUG freemarker.cache<strong>{1}<\strong>:45 - TemplateLoader.findTemplateSource("spark/partials/dashboard_en.ftl"): Not found
+23:41:57,524 DEBUG freemarker.cache<strong>{1}<\strong>:45 - TemplateLoader.findTemplateSource("spark/partials/dashboard.ftl"): Found
+23:41:57,524 DEBUG freemarker.cache<strong>{1}<\strong>:45 - Loading template for "spark/partials/dashboard.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Admin/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/dashboard.ftl"
+23:41:57,612 DEBUG freemarker.cache<strong>{1}<\strong>:45 - Couldn't find template in cache for "spark/partials/scripts.ftl"("en_IN", UTF-8, parsed); will try to load it.
+23:41:57,613 DEBUG freemarker.cache<strong>{1}<\strong>:45 - TemplateLoader.findTemplateSource("spark/partials/scripts_en_IN.ftl"): Not found
+23:41:57,614 DEBUG freemarker.cache<strong>{1}<\strong>:45 - TemplateLoader.findTemplateSource("spark/partials/scripts_en.ftl"): Not found
+23:41:57,615 DEBUG freemarker.cache<strong>{1}<\strong>:45 - TemplateLoader.findTemplateSource("spark/partials/scripts.ftl"): Found
+23:41:57,615 DEBUG freemarker.cache<strong>{1}<\strong>:45 - Loading template for "spark/partials/scripts.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Admin/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/scripts.ftl"
+23:41:57,617 DEBUG freemarker.cache<strong>{1}<\strong>:45 - Couldn't find template in cache for "commons/commons-inject-js.ftl"("en_IN", UTF-8, parsed); will try to load it.
+23:41:57,618 DEBUG freemarker.cache<strong>{1}<\strong>:45 - TemplateLoader.findTemplateSource("commons/commons-inject-js_en_IN.ftl"): Not found
+23:41:57,619 DEBUG freemarker.cache<strong>{1}<\strong>:45 - TemplateLoader.findTemplateSource("commons/commons-inject-js_en.ftl"): Not found
+23:41:57,620 DEBUG freemarker.cache<strong>{1}<\strong>:45 - TemplateLoader.findTemplateSource("commons/commons-inject-js.ftl"): Found
+23:41:57,620 DEBUG freemarker.cache<strong>{1}<\strong>:45 - Loading template for "commons/commons-inject-js.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Admin/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-inject-js.ftl"
+23:41:59,082 DEBUG freemarker.cache<strong>{1}<\strong>:45 - "spark/spark.spa.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+23:41:59,082 DEBUG freemarker.cache<strong>{1}<\strong>:45 - "commons/commons-variables.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+23:41:59,083 DEBUG freemarker.cache<strong>{1}<\strong>:45 - "commons/commons-macros.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+23:41:59,084 DEBUG freemarker.cache<strong>{1}<\strong>:45 - "spark/macros/attributes.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+23:41:59,084 DEBUG freemarker.cache<strong>{1}<\strong>:45 - "spark/macros/log.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+23:41:59,084 DEBUG freemarker.cache<strong>{1}<\strong>:45 - "spark/macros/recurse_nodes.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+23:41:59,084 DEBUG freemarker.cache<strong>{1}<\strong>:45 - "spark/macros/log.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+23:41:59,085 DEBUG freemarker.cache<strong>{1}<\strong>:45 - "spark/macros/attr-common.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+23:41:59,086 DEBUG freemarker.cache<strong>{1}<\strong>:45 - "spark/partials/head.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+23:41:59,087 DEBUG freemarker.cache<strong>{1}<\strong>:45 - "commons/commons-inject-css.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+23:41:59,089 DEBUG freemarker.cache<strong>{1}<\strong>:45 - "spark/partials/navbar.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+23:41:59,091 DEBUG freemarker.cache<strong>{1}<\strong>:45 - "spark/partials/sidenav.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+23:41:59,100 DEBUG freemarker.cache<strong>{1}<\strong>:45 - "spark/partials/test.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+23:41:59,102 DEBUG freemarker.cache<strong>{1}<\strong>:45 - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+23:41:59,107 DEBUG freemarker.cache<strong>{1}<\strong>:45 - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+23:41:59,114 DEBUG freemarker.cache<strong>{1}<\strong>:45 - "spark/partials/exception.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+23:41:59,114 DEBUG freemarker.cache<strong>{1}<\strong>:45 - "spark/partials/category.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+23:41:59,115 DEBUG freemarker.cache<strong>{1}<\strong>:45 - "spark/partials/device.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+23:41:59,115 DEBUG freemarker.cache<strong>{1}<\strong>:45 - "spark/partials/author.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+23:41:59,116 DEBUG freemarker.cache<strong>{1}<\strong>:45 - "spark/partials/log.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+23:41:59,116 DEBUG freemarker.cache<strong>{1}<\strong>:45 - "spark/partials/dashboard.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+23:41:59,145 DEBUG freemarker.cache<strong>{1}<\strong>:45 - "spark/partials/scripts.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+23:41:59,145 DEBUG freemarker.cache<strong>{1}<\strong>:45 - "commons/commons-inject-js.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+23:42:00,017 DEBUG devpinoyLogger<strong>{1}<\strong>:168 - Test Execution completed !!
+23:42:00,027  INFO org.uncommons.reportng.HTMLReporter<strong>{1}<\strong>:131 - ****************************************
+23:42:00,028  INFO org.uncommons.reportng.HTMLReporter<strong>{1}<\strong>:132 - Generate reportNG report
+23:42:00,028  INFO org.uncommons.reportng.HTMLReporter<strong>{1}<\strong>:133 - Path : C:\Users\Admin\eclipse-workspace\seleniumtesting\DataDrivenProject\test-output\html
+23:42:00,994  INFO org.uncommons.reportng.HTMLReporter<strong>{1}<\strong>:178 - ****************************************
